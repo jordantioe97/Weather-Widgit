@@ -1,0 +1,126 @@
+body {
+	background-image: url("Img/default.jpg");
+	background-size: cover;
+	background-size: no-repeat;
+	background-position: center center;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	font-family: "Palatino Linotype, "Book Antiqua", Palatino, serif;
+}
+	
+#weatherContainer {
+	padding: 50px;
+	position: absolute;
+	float:left;
+	margin:0px;
+	left: 20%;
+	top: 20%;
+	width:200px;
+	height:160px;
+}
+
+#forecast1Container {
+	font-size: 14px;
+	padding: 50px;
+	position: absolute;
+	left: 70%;
+	top: 10%;
+	width:200px;
+	height:100px;
+}
+
+#forecast2Container {
+	font-size: 14px;
+	padding: 50px;
+	position: absolute;
+	left: 70%;
+	top: 30%;
+	width:200px;
+	height:100px;
+}
+
+#forecast3Container {
+	font-size: 14px;
+	padding: 50px;
+	position: absolute;
+	left: 70%;
+	top: 50%;
+	width:200px;
+	height:100px;
+}
+
+#forecast4Container {
+	font-size: 14px;
+	padding: 50px;
+	position: absolute;
+	left: 70%;
+	top: 70%;
+	width:200px;
+	height:100px;
+}
+
+#searchContainer {
+	padding: 15px;
+	position: absolute;
+	top: 5%;
+	left: 30%;
+}
+#searchContainer input {
+	width: 500px;
+}
+#searchContainer button {
+	background-color: rgb(51,255,51);
+	width: 75px;
+}
+.searchControl {
+	box-shadow: 2px 2px 5px black;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#time {
+	font-size: 18px;
+}
+
+#date {
+	font-size: 20px;
+}
+
+#cityName {
+	font-size: 60px;
+}
+#temperature {
+	font-size: 100px;
+}
+
+#weatherDescription {
+	font-size: 24px;
+}
+
+#weatherDescription1 {
+	font-size: 18px;
+}
+#weatherDescription2 {
+	font-size: 18px;
+}
+#weatherDescription3 {
+	font-size: 18px;
+}
+#weatherDescription4 {
+	font-size: 18px;
+}
+#maxTemperature {
+	font-size: 20px;
+}
+#minTemperature {
+	font-size: 20px;
+}
+.bottomDetails {
+	display: block;
+	font-size: 24px;
+	text-align: right;
+}
+hr {
+	margin: 10px 5px 15px 20px;
+}
